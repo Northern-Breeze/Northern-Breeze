@@ -1,0 +1,104 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+  background-color: #fff !important;
+  .btn {
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+  .btn {
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  .small-header {
+    font-size: 2rem;
+    text-align: center;
+    color: #217BF4;
+    margin-top: 1rem;
+  }
+  .large-header {
+    font-size: 4rem;
+    text-align: center;
+    color: #0A093D;
+    padding: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .description {
+    font-size: 16px;
+    text-align: center;
+    color: #656464;
+    width: calc(100vw - 20rem);
+  }
+}
