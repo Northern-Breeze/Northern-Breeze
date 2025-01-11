@@ -9,6 +9,15 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
   },
+  transpilePackages: [
+    '@ionic/react',
+    '@ionic/core',
+    '@stencil/core',
+    'ionicons'
+  ],
+  experimental: {
+    esmExternals: true
+  }
 }
 
 module.exports = nextConfig
