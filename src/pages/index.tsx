@@ -148,7 +148,7 @@ export default function Home() {
                 <p className="about-text">
                   We work closely with you to make sure your vision reaches
                   market quicker. We are in it with you in the long run, with
-                  support and brain storming of ideas. Your Ideas don't have to
+                  support and brain storming of ideas. Your Ideas don&apos;t have to
                   be market proven we will make sure they reach market quicker
                   to test out what the user likes.
                 </p>
