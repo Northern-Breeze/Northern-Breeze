@@ -120,7 +120,7 @@ export default function Home() {
                 <button className="btn">Learn More</button>
               </div>
               <figure className="hero-banner">
-                <img
+                <Image
                   src="https://raw.githubusercontent.com/codewithsadee/desinic/master/assets/images/hero-banner.png"
                   width="694"
                   height="529"
@@ -134,7 +134,7 @@ export default function Home() {
           <section className="section about" id="about">
             <div className="container">
               <figure className="about-banner">
-                <img
+                <Image
                   src="https://github.com/codewithsadee/desinic/blob/master/assets/images/about-banner.png?raw=true"
                   width="700"
                   height="532"
@@ -259,7 +259,7 @@ export default function Home() {
                 </li>
               </ul>
               <figure className="features-banner">
-                <img
+                <Image
                   src="https://raw.githubusercontent.com/codewithsadee/desinic/master/assets/images/feautres-banner.png"
                   width="369"
                   height="318"
