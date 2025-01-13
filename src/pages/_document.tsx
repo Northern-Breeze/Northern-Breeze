@@ -4,12 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-            crossOrigin="anonymous"
-          />
+      <title>Northern Breeze</title>
+        <meta name="description" content="Northern Breeze Software Development" />
+        <meta property="og:title" content="Northern Breeze" />
+        <meta property="og:description" content="Software Development, App Development and More" />
       </Head>
       <body>
         <Main />
